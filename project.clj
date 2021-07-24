@@ -3,7 +3,8 @@
   :url "https://github.com/Meghajit/Subrosa"
   :license {:name "MIT License"
             :url "https://github.com/Meghajit/Subrosa/blob/master/LICENSE"}
-  :dependencies [[org.clojure/clojure "1.10.0"]]
+  :dependencies [[org.clojure/clojure "1.10.0"]
+                 [com.google.crypto.tink/tink "1.6.1"]]
   :main ^:skip-aot subrosa.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
